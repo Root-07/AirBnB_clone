@@ -1,15 +1,3 @@
-## How to add Author file
-`Bash script for generating the list of authors in git repo`
-```
-#!/bin/sh
-
-git shortlog -se \
-  | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
-  > AUTHORS
-  ```
-## Authors
-| Name | GitHub username |
-| ------ | ------ |
-| ET-TASS Ayoub | [aet_tass](https://github.com/aet-tass) |
-| EL AMINE Ali  | [Root-07](https://github.com/Root-07) |
+This file lists all individuals having contributed to this project.
+EL AMINE Ali  <alielamine6@gmail.com>
+ET-TASS Ayoub <ayoub.ettass@gmail.com>
