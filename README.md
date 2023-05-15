@@ -64,3 +64,9 @@ $
 | ------ | ------ |
 | ET-TASS Ayoub | [aet_tass](https://github.com/aet-tass) |
 | EL AMINE Ali  | [Root-07](https://github.com/Root-07) |
+
+git shortlog -se \
+  | perl -spe 's/^\s+\d+\s+//' \
+  | sed -e '/^CommitSyncScript.*$/d' \
+  > AUTHORS
+  ```
