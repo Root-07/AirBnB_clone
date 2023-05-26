@@ -14,7 +14,7 @@ At the end of this project you are expected to be able to explain to anyone, wit
 * What is a selector?
 * How do you compute CSS Specificity Value?
 * What are Box properties in CSS?
-# -------------------------------------------------------------------------------
+# ---------------------------------------------------------------------
 ## 0. Inline styling
 Write an HTML page that displays a header and a footer.
 ## 1. Head styling
